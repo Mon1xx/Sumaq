@@ -12,23 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="index.jsp"> <img src="img/sumaqlogo.png" width="400"></a>
-        </div>
-<nav>
-  <ul class="nav-links">
-    <li><a href="#">Productos</a></li>
-    <li><a href="#">Sobre Nosotros</a></li>
-    <li><a href="#">ATC</a></li>
-    <li><a href="#">Política</a></li>
-    <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/6136/6136434.png" class="iconcarrito"></a></li>
-    <li><a href="#">Iniciar Sesión</a></li>
-  </ul>
-</nav>
-
-        <a href="#" class="btn"><button>Contacto</button></a>
-</header>
+    <!-- Chicos, esto es para importar el codigo del header y no estar copy y paste en todos los archivos :D -->
+<%@ include file="header.jsp" %>
     <!-- -CARRUOSEL -->
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
@@ -86,38 +71,12 @@
 		</div>
 	</div>
 </div>
-<footer class="footer">
-  <div class="footer-container">
-    <div class="footer-logo">
-      <img src="img/sumaqlogo.png" alt="Sumaq Logo" />
-      <p>Sumaq - Calidad y tradición en cada producto</p>
-    </div>
 
-    <div class="footer-links">
-      <h3>Enlaces rápidos</h3>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Sobre Nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </div>
+    <!-- Newsletter (formulario de correos de suscribirse-->
+<%@ include file="newsletter.jsp" %>
 
-    <div class="footer-social">
-      <h3>Síguenos</h3>
-      <div class="social-icons">
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" /></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; 2025 Sumaq. Todos los derechos reservados.</p>
-  </div>
-</footer>
-
+    <!-- Chicos, esto es para importar el codigo del footer y no estar copy y paste en todos los archivos :D -->
+<%@ include file="footer.jsp" %>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
 </body>
