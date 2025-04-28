@@ -20,7 +20,7 @@
             <ul> 
                 <li><a href="#">PRODUCTOS</a>
                     <ul>
-                        <li><a href="Sumaq_Team10/accesorios.jsp">ACCESORIOS</a></li>
+                        <li><a href="${pageContext.request.contextPath}/accesorios.jsp">ACCESORIOS</a></li>
                         <li><a href="#">HOMBRES</a></li>
                         <li><a href="#">MUJERES</a></li>
                         <li><a href="#">ZAPATOS</a></li>

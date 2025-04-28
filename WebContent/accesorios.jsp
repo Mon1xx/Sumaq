@@ -17,6 +17,7 @@
     <div class="card-content">
       <h3 class="card-title">Collar Virgen Maria</h3>
       <p class="card-description">Un detalle que te acompañará y protegerá siempre.</p>
+      <p class="card-price">S/.109.90</p>      
 	<button class="card-button" onclick="openModal('Collar Virgen Maria', 
 			'Oro amarillo  de 18 kilates, lleva un engaste central de cristal Swarovski o Moissanita.')">Agregar al Carrito</button>      
     </div>
@@ -27,6 +28,7 @@
     <div class="card-content">
       <h3 class="card-title">Anillo de Compromiso Sumaq</h3>
       <p class="card-description">Un destello de puro brillo adornará tus dedos. ✨</p>
+      <p class="card-price">S/2180.90</p>      
 	<button class="card-button" onclick="openModal('Anillo de Compromiso Sumaq', 'Oro amarillo  de 18 kilates, lleva un engaste central de cristal Swarovski o Moissanita.')">Agregar al Carrito</button>
     </div>
   </div>
@@ -36,6 +38,7 @@
     <div class="card-content">
       <h3 class="card-title">Aretes Bolita Gold</h3>
       <p class="card-description">Son 2 piezas de Oro super elegantes.</p>
+      <p class="card-price">S/59.90</p>      
 	<button class="card-button" onclick="openModal('Aretes Bolita Gold', 'Su estilo es muy sencillito con el detalle de perla hacen que sean divinos.')">Agregar al Carrito</button>
     </div>
   </div>
@@ -45,6 +48,7 @@
     <div class="card-content">
       <h3 class="card-title">Cadena Cartier</h3>
       <p class="card-description">Cadena cartier hecha artesanalmente en oro de 18 kilates.</p>
+      <p class="card-price">S/149.90</p>      
 	<button class="card-button" onclick="openModal('Cadena Cartier', 'Hecho en oro naranja de 18 kilates para la coleccion Sumaq Men')">Agregar al Carrito</button>
     </div>
   </div>
@@ -54,6 +58,7 @@
     <div class="card-content">
       <h3 class="card-title">Aretes Colmillo</h3>
       <p class="card-description">Aretes que demuestran el lado oscuro de la elegancia.</p>
+      <p class="card-price">S/29.90</p>      
 	<button class="card-button" onclick="openModal('Aretes Colmillo', 'Hechos de colmillo de oro y obsidiana de Minecraft')">Agregar al Carrito</button>
     </div>
   </div>
@@ -63,6 +68,7 @@
     <div class="card-content">
       <h3 class="card-title">Correa de Oro y Cristales</h3>
       <p class="card-description">Añade un toque de sofisticación y glamour a su look.</p>
+      <p class="card-price">S/89.90</p>      
 	<button class="card-button" onclick="openModal('Correa de Oro y Cristales', 'Ideal para ocasiones especiales o para darle un toque de elegancia a tu día a día, su diseño delicado y versátil se adapta a diversos estilos y outfits. ')">Agregar al Carrito</button>
     </div>
   </div>
@@ -72,6 +78,7 @@
     <div class="card-content">
       <h3 class="card-title">Argolla Kala</h3>
       <p class="card-description">Juega a combinar con estas argollas.</p>
+      <p class="card-price">S/49.90</p>      
 	<button class="card-button" onclick="openModal('Argolla Kala', 'Pequeñas o grandes, crea diferentes looks con estas argollas más icónicas.')">Agregar al Carrito</button>
     </div>
   </div>
@@ -81,6 +88,7 @@
     <div class="card-content">
       <h3 class="card-title">Collar Heart</h3>
       <p class="card-description">Un poquito de amor en forma de corazón. 🤍</p>
+      <p class="card-price">S/89.90</p>      
 	<button class="card-button" onclick="openModal('Collar Heart', 'El collar corazon con relieve será amor a primera joya. ✨')">Agregar al Carrito</button>
     </div>
   </div>
@@ -90,6 +98,7 @@
     <div class="card-content">
       <h3 class="card-title">Collar fotograbado</h3>
       <p class="card-description">Esta joya es ideal para grabar tus momentos mas inolvidables.</p>
+      <p class="card-price">S/109.90</p>      
 	<button class="card-button" onclick="openModal('Collar fotograbado', 'Un pequeño recuerdo para celebrar su amor.')">Agregar al Carrito</button>
     </div>
   </div>
@@ -99,6 +108,7 @@
     <div class="card-content">
       <h3 class="card-title">Collar Mamá</h3>
       <p class="card-description">Una coleccción en honor a ella</p>
+      <p class="card-price">S/99.90</p>      
 	<button class="card-button" onclick="openModal('Collar Mamá', 'Esta joyita  es ideal para regalar mamá y decirle cuánto la quieres 💕❤')">Agregar al Carrito</button>
     </div>
   </div>
@@ -108,6 +118,7 @@
     <div class="card-content">
       <h3 class="card-title">Collar Lazo Infinito</h3>
       <p class="card-description">Para que muestres tu lado mas coquette.</p>
+      <p class="card-price">S/79.90</p>
 	<button class="card-button" onclick="openModal('Collar Lazo Infinito', 'Sé la girl mas coquette esta temporada. 💕❤')">Agregar al Carrito</button>
     </div>
   </div>
@@ -117,6 +128,7 @@
     <div class="card-content">
       <h3 class="card-title">Pulsera Astral</h3>
       <p class="card-description">Esta colección habla sobre nosotras y nuestra energía.</p>
+      <p class="card-price">S/89.90</p>      
 	<button class="card-button" onclick="openModal('Pulsera Astral', 'Representan la magia de poder establecer relación entre lo que sucede en el cielo y lo que acontece en nuestras vidas.')">Agregar al Carrito</button>
     </div>
   </div>
