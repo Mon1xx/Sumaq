@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+*{
+	font-family: 'Nunito', sans-serif;
+}
+.header {
+    background-color: rgb(173, 120, 129);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 5px 10px;
+    position: relative;
+	z-index: 1000; 
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.container-menu .menu {
+    display: flex;
+    align-items: center;
+}
+
+.container-menu .menu input[type="checkbox"] {
+    display: none;
+}
+
+.container-menu .menu label {
+    display: none;
+}
+
+.container-menu .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container-menu .menu li {
+    position: relative;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.container-menu .menu a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container-menu .menu li:hover {
+    transform: scale(1.1);
+}
+
+.container-menu .menu li a:hover {
+    color: rgb(115, 37, 56);
+    font-weight: bold;
+}
+
+.container-menu .iconos {
+    display: flex;
+    align-items: center;
+}
+
+.container-menu .iconos ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container-menu .iconos li {
+    padding: 0 10px;
+}
+
+.container-menu .iconos li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-menu .iconos li a .fa-cart-shopping {
+    font-size: 24px;
+}
+
+.container-menu .iconos li a .fa-user {
+    font-size: 24px;
+}
+
+.container-menu .iconos li a .fa-magnifying-glass {
+    font-size: 24px;
+}
+
+.container-menu .iconos .search input[type="text"] {
+    display: none;
+}
+
+.container-menu .menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(115, 37, 56);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1050;
+    min-width: 200px; 
+}
+
+.container-menu .menu li:hover > ul {
+    display: block;
+}
+
+.container-menu .menu li ul li {
+    padding: 5px 0;
+}
+
+.container-menu .menu li ul li a {
+    color: white;
+    font-weight: normal;
+}
+
+.container-menu .menu li ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#check__menu:checked + label + .menu ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    background-color: rgb(173, 120, 129);
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#check__menu:checked + label + .menu ul li {
+    padding: 8px 0;
+}
+
+#check__menu:checked + label + .menu ul li a {
+    font-size: 8px;
+}
+

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.newsletter {
+   text-align: center;
+   margin-top: 50px;
+        }
+
+.newsletter-form input {
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+     padding: 10px 20px;
+     background-color:   rgb(173, 120, 129);
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+.newsletter-form button:hover {
+	color: rgb(115, 37, 56);
+}
+
+.popup-message {
+     display: none;
+     padding: 15px;
+     background-color:  rgb(115, 37, 56);
+     color: white;
+     border-radius: 5px;
+     text-align: center;
+     margin-top: 20px;
+}
+
+.popup-message p {
+     margin: 0;
+}
