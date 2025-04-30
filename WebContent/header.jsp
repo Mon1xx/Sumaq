@@ -36,15 +36,15 @@
                 </li>
                 <li><a href="#">ATENCIÓN AL CLIENTE</a>
 					<ul>
-                        <li><a href="#">NUESTRA HISTORIA</a></li>
-                        <li><a href="#">VISIÓN Y MISION</a></li>
-                        <li><a href="#">RESEÑAS DE CLIENTES</a></li>   
+                        <li><a href="SumaqServlet?accion=contacto">CONTACTO</a></li>
+                        <li><a href="SumaqServlet?accion=whatsapp">WHATSAPP</a></li>
+                        <li><a href="SumaqServlet?accion=preguntasFrecuentes">PREGUNTAS FRECUENTES</a></li>
                     </ul>
                 </li> 
                 <li><a href="#">POLÍTICA DE LA TIENDA</a>
                     <ul>
-                    <li><a href="#">TERMINOS Y CONDICIONES</a></li>
-                    <li><a href="#">POLÍTICA DE DEVOLUCIONES</a></li>                    
+                    <li><a href="SumaqServlet?accion=terminos">TERMINOS Y CONDICIONES</a></li>
+					<li><a href="SumaqServlet?accion=devoluciones">POLÍTICA DE DEVOLUCIONES</a></li>                  
                     </ul> 
               </ul>           
         </div>

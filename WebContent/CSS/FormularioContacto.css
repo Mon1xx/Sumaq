@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 80px;
+            max-width: 900px;
+            margin-bottom: 60px;
+        }
+
+        .h1 {
+            color: rgb(173, 120, 129);
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+
+        .form-label {
+            font-weight: bold;
+            color: rgb(173, 120, 129);
+        }
+
+        .btn-custom {
+            background-color: rgb(173, 120, 129);
+            color: white;
+            font-weight: 600;
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            border: none;
+            box-shadow: 0 5px 15px rgba(173, 120, 129, 0.2);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+        }
+
+        .btn-custom:hover {
+            background-color: #f5b7b1;
+            box-shadow: 0 5px 20px rgba(173, 120, 129, 0.3);
+        }
+
+        .form-control:focus {
+            border-color: rgb(173, 120, 129);
+            box-shadow: 0 0 5px rgba(173, 120, 129, 0.5);
+        }
+
+        .form-text {
+            font-size: 14px;
+            color: #888;
+        }
+
+        .alert-custom {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .alert-custom-success {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .alert-custom-danger {
+            background-color: #FF5733;
+            color: white;
+        }
+
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            background-color: #fff;
+        }
+        
+        /* Modal/Pop-up Styles */
+        .modal {
+		    display: none;
+		    position: fixed;
+		    z-index: 1050; /* Asegura que el modal se superponga a otros elementos */
+		    left: 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    background-color: rgba(0, 0, 0, 0.5); /* Un fondo negro semi-transparente */
+		    padding-top: 150px; /* Centrado vertical del modal */
+		    transition: background-color 0.3s ease;
+		}
+		
+		.modal-content {
+		    background-color: #ffffff;
+		    padding: 30px;
+		    border-radius: 12px;
+		    width: 500px;
+		    margin: auto;
+		    text-align: center;
+		    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra más suave y grande */
+		    animation: fadeIn 0.3s ease-out;
+		}
+		
+		.modal-content h4 {
+		    color: rgb(173, 120, 129);
+		    font-size: 1.6rem;
+		    margin-bottom: 20px;
+		    font-weight: 600;
+		}
+		
+		.modal-content p {
+		    font-size: 16px;
+		    color: #333;
+		    margin-bottom: 30px;
+		    line-height: 1.5;
+		}
+		
+		.close {
+		    color: #aaa;
+		    font-size: 32px;
+		    font-weight: bold;
+		    cursor: pointer;
+		    position: absolute;
+		    top: 15px;
+		    right: 15px;
+		}
+		
+		.close:hover,
+		.close:focus {
+		    color: #333;
+		    text-decoration: none;
+		}
+		
+		@keyframes fadeIn {
+		    0% {
+		        opacity: 0;
+		    }
+		    100% {
+		        opacity: 1;
+		    }
+		}
+        
+
+        /* Responsive Styles */
+        @media (max-width: 576px) {
+            .h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                margin-top: 30px;
+            }
+
+            .card {
+                padding: 30px;
+            }
+        }
